@@ -22,6 +22,7 @@ const fetchAndParse = async () => {
     console.error('Помилка при отриманні даних:', error);
   }
 };
+
 // Початкова перевірка
 fetchAndParse();
 
